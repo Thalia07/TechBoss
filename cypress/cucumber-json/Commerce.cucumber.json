@@ -1,0 +1,79 @@
+[
+  {
+    "description": "    The first example has two steps\n    \nFeature: Guess the word",
+    "keyword": "Feature",
+    "name": "Commerce test",
+    "line": 1,
+    "id": "commerce-test",
+    "tags": [],
+    "uri": "Commerce.feature",
+    "elements": [
+      {
+        "id": "commerce-test;maker-starts-a-game",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Maker starts a game",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the Maker starts a game",
+            "result": {
+              "status": "undefined",
+              "duration": 242000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the Maker waits for a Breaker to join",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "commerce-test;breaker-joins-a-game",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Breaker joins a game",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "the Maker has started a game with the word \"silky\"",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the Breaker joins the Maker's game",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the Breaker must guess a word with 5 characters",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

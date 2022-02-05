@@ -1,0 +1,14 @@
+{
+    "chromeWebSecurity": false,
+    "baseUrl": "http://www.way2automation.com/angularjs-protractor/banking/#/login",
+    "pageLoadTimeout": 120000,
+    "reporterOptions": {
+      "reportDir": "cypress/reports",
+      "reportFilename": "testresults",
+      "overwrite": false,
+      "html": true,
+      "json": true,
+      "charts": true
+    },
+    "testFiles": "**/*.feature"
+  }
